@@ -1,7 +1,6 @@
 def solution(sizes):
-    answer_w = []
+    answer = 0
     max_w = 0
-    answer_h = []
     max_h = 0
     for w,h in sizes:
         if w < h:
